@@ -1,0 +1,142 @@
+Xft.dpi: 96
+Xft.antialias:  true
+Xft.rgba:       rgb
+Xft.hinting:    true
+Xft.hintstyle:  hintslight
+
+! ---------------------------------------------------------------------
+! Xpdf
+! ---------------------------------------------------------------------
+xpdf.initialZoom: page
+xpdf.paperColor: Gray90
+xpdf.background: SlateGray
+xpdf.foreground: Black
+xpdf.t1libControl: plain
+! xpdf.t1libControl: none
+
+
+!! Colors
+*background: rgb:00/00/00
+*foreground: rgb:e5/e5/e5
+!! Black + DarkGrey
+*color0: rgb:00/00/00
+*color8: rgb:33/33/33
+!! DarkRed + Red
+*color1: rgb:a8/00/00
+*color9: rgb:f8/54/50
+!! DarkGreen + Green
+*color2: rgb:20/ad/20
+*color10: rgb:35/e9/56
+!! DarkYellow + Yellow
+!*color3: rgb:ff/ff/00
+!*color11: rgb:fe/ff/b3
+*color3: rgb:f9/d3/24
+*color11: rgb:E6/DB/74
+!! DarkBlue + Blue
+*color4: rgb:1b/27/bd
+*color12: rgb:1b/85/d6
+!! DarkMangenta + Mangenta
+*color5: rgb:a8/00/a8
+*color13: rgb:f8/54/f8
+!!DarkCyan + Cyan
+*color6: rgb:a0/c2/de
+*color14: rgb:c9/de/e8
+!*color6: rgb:7a/be/cc
+!*color14: rgb:33/8e/aa
+!! LightGrey + White
+*color7: rgb:ff/ff/ff
+*color15: rgb:ff/ff/ff
+
+xterm*termName: xterm-256color
+xterm*VT100.metaSendsEscape: true
+xterm*scrollBar:false
+xterm*cursorBlink: true
+xterm*rightScrollBar:true
+xterm*jumpScroll:true
+xterm*font: -sweep-imperium-medium-r-normal--12-120-75-75-c-61-iso10646-1
+xterm*boldFont: -sweep-imperium-medium-r-normal--12-120-75-75-c-61-iso10646-1
+XTerm*charClass: 33:48,37-38:48,45-47:48,64:48,58:48,126:48,61:48,63:48,43:48,35:38
+XTerm*utf8:1
+XTerm*renderFont: true 
+xterm*boldMode: false
+!XTerm*faceName:FixedMed
+!XTerm*faceSize:9
+xterm*cursorColor: IndianRed
+xterm*activeIcon:false
+xterm*awaitInput:true
+xterm*scrollTtyOutput: false
+xterm*scrollKey: true
+xterm*SaveLines: 10000
+
+!! Emacs Xft Settings!
+Emacs.font: Imperium Typewriter-10
+
+urxvt*VT100.metaSendsEscape: true
+urxvt*scrollBar:false
+urxvt*cursorBlink: true
+urxvt*rightScrollBar:true
+urxvt*jumpScroll:true
+urxvt*font: xft:Imperium Typewriter:pixelsize=13:antialias=true:dpi=81
+urxvt*boldFont: xft:Imperium Typewriter:pixelsize=13:Bold:antialias=true:dpi=81
+urxvt*cursorColor: IndianRed
+urxvt*colorBDMode: false
+urxvt*colorULMode: true
+urxvt*colorUL: yellow
+urxvt*highlightColor:grey70
+urxvt*highlightSelection: true
+urxvt*activeIcon:false
+urxvt*awaitInput:true
+urxvt*scrollTtyOutput: false
+urxvt*scrollKey: true
+urxvt*SaveLines: 10000
+
+!Terminal colors
+XBoard*colorizeMessages: true
+XBoard*colorShout: green
+XBoard*colorSShout: green, default, 1
+XBoard*colorChannel1: cyan
+XBoard*colorChannel: cyan, default, 1
+XBoard*colorKibitz: magenta, default, 1
+XBoard*colorTell: yellow, blue, 1
+XBoard*colorChallenge: red, default, 1
+XBoard*colorRequest: red
+XBoard*colorNormal: default
+
+!some personal settings
+XBoard*saveGameFile: /home/vico/iccgames.pgn
+XBoard*autoSaveGames: true
+XBoard*autoCallFlag: true
+XBoard*alwaysPromoteToQueen: true
+XBoard*pixmapDirectory: ~/.chessfig/dyche2
+XBoard*soundProgram: esdplay
+XBoard*boardSize: 51,01
+!Board and pieces colors
+XBoard*whitePieceColor: #ffffd7
+XBoard*blackPieceColor: #1d1d1d
+XBoard*lightSquareColor: #ccbda4
+XBoard*darkSquareColor: #a88964
+XBoard*highlightSquareColor: yellow
+
+!and finaly the buttons and clock
+XBoard*MenuButton*Justify:    left
+!XBoard*MenuButton*MenuButtonStyle: selecta
+XBoard*MenuButton*MenuButtonStyle: action
+XBoard*message*background: snow
+!.XBoard.ICS Input.normalLayout.form.text.background: snow
+XBoard*.form.text.background: snow
+.XBoard.normalLayout.form.menuBar.File.foreground: snow
+.XBoard.normalLayout.form.menuBar.File.background: #777777
+.XBoard.normalLayout.form.menuBar.Mode.foreground: snow
+.XBoard.normalLayout.form.menuBar.Mode.background: #777777
+.XBoard.normalLayout.form.menuBar.Action.foreground: snow
+.XBoard.normalLayout.form.menuBar.Action.background: orange3
+.XBoard.normalLayout.form.menuBar.Step.foreground: snow
+.XBoard.normalLayout.form.menuBar.Step.background: #777777
+.XBoard.normalLayout.form.menuBar.Options.foreground: snow
+.XBoard.normalLayout.form.menuBar.Options.background: #777777
+.XBoard.normalLayout.form.menuBar.Help.foreground: snow
+.XBoard.normalLayout.form.menuBar.Help.background: #777777
+.XBoard.normalLayout.form.buttonBar.Command.foreground: snow
+.XBoard.normalLayout.form.buttonBar.Command.background: #777777
+
+XBoard*clockFont: -sweep-imperium-medium-r-normal--12-120-75-75-c-61-*-*
